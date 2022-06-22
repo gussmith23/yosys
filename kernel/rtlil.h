@@ -58,6 +58,7 @@ namespace RTLIL
 		CONST_FLAG_SIGNED  = 2,  // only used for parameters
 		CONST_FLAG_REAL    = 4,  // only used for parameters
 		CONST_FLAG_UNSIZED = 8,  // only used for parameters
+		CONST_FLAG_ID      = 5
 	};
 
 	enum SelectPartials : unsigned char {
